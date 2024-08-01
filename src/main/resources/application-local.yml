@@ -1,0 +1,8 @@
+server:
+  port: 4000
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/cart-mgmt-sb
+      database: cart-mgmt-sb
+      auto-index-creation: true
